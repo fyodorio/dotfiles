@@ -1,0 +1,54 @@
+// fyodorio's custom Zed settings
+{
+  "features": {
+    "inline_completion_provider": "none" // no openai please
+  },
+  "autosave": { "after_delay": { "milliseconds": 1000 } }, // always
+  "theme": "macOS Classic Light", // requires extension — clean and less intrusive
+  "ui_font_size": 17,
+  "buffer_font_size": 15,
+  "base_keymap": "VSCode", // lesser evil
+  "preview_tabs": {
+    "enabled": false
+  },
+  "tabs": {
+    "git_status": true
+  },
+  "soft_wrap": "editor_width",
+  "preferred_line_length": 120,
+  "telemetry": { // no way
+    "diagnostics": false,
+    "metrics": false
+  },
+  "diagnostics": {
+    "include_warnings": false
+  },
+  "auto_update": false, // because why the hell
+  "inline_blame": {
+    "enabled": false
+  },
+  "ensure_final_newline_on_save": false,
+  "when_closing_with_no_tabs": "keep_window_open",
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false,
+    "selections_menu": false
+  },
+  "tab_bar": {
+    "show": false
+  },
+  "assistant": {
+    "version": "1",
+    "enabled": false,
+    "button": true,
+  },
+  "chat_panel": {
+    "button": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "task": {
+    "show_status_indicator": false
+  }
+}
