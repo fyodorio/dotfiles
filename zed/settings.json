@@ -16,7 +16,8 @@
   },
   "soft_wrap": "editor_width",
   "preferred_line_length": 120,
-  "telemetry": { // no way
+  "telemetry": {
+    // no way
     "diagnostics": false,
     "metrics": false
   },
@@ -24,7 +25,7 @@
     "include_warnings": false
   },
   "auto_update": false, // because why the hell
-  "git":{
+  "git": {
     "inline_blame": {
       "enabled": false // too annoying
     }
@@ -32,25 +33,34 @@
   "ensure_final_newline_on_save": false,
   "when_closing_with_no_tabs": "keep_window_open",
   "toolbar": {
-    "breadcrumbs": true,
+    "breadcrumbs": true, // I only need to know where am I, that's it
     "quick_actions": false,
     "selections_menu": false
   },
   "tab_bar": {
-    "show": false
+    "show": false // there can be only one
   },
   "assistant": {
     "version": "1",
-    "enabled": false,
-    "button": true,
+    "enabled": false, // rage against the machine
+    "button": true
   },
   "chat_panel": {
-    "button": false
+    "button": false // forever alone...
   },
   "collaboration_panel": {
-    "button": false
+    "button": false // hate everyone
   },
   "task": {
-    "show_status_indicator": false
+    "show_status_indicator": false // dunno wtf is that
+  },
+  "notification_panel": {
+    "button": false // requires signin — we don't use that here
+  },
+  "terminal": {
+    "button": false // who uses anything but warp these days...
+  },
+  "outline_panel": {
+    "button": false // rather annoying
   }
 }
