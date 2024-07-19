@@ -24,8 +24,10 @@
     "include_warnings": false
   },
   "auto_update": false, // because why the hell
-  "inline_blame": {
-    "enabled": false
+  "git":{
+    "inline_blame": {
+      "enabled": false // too annoying
+    }
   },
   "ensure_final_newline_on_save": false,
   "when_closing_with_no_tabs": "keep_window_open",
