@@ -1,0 +1,35 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 16.0
+
+# Requires FiraCode Nerd Font Mono installed (via Homebrew)
+[font.bold]
+family = "FiraCode Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "FiraCode Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font Mono"
+style = "Regular"
+
+[window.padding]
+x = 8
+y = 8
+
+# requires https://github.com/alacritty/alacritty-theme
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/github_light_high_contrast.toml"
+]
