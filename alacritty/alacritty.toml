@@ -7,7 +7,6 @@ TERM = "xterm-256color"
 [font]
 size = 16.0
 
-# Requires FiraCode Nerd Font Mono installed (via Homebrew)
 [font.bold]
 family = "FiraCode Nerd Font Mono"
 style = "Bold"
@@ -28,7 +27,13 @@ style = "Regular"
 x = 8
 y = 8
 
-# requires https://github.com/alacritty/alacritty-theme
+[window.dimensions]
+columns = 125
+lines = 35
+[window.position]
+x = 350
+y = 250
+
 [general]
 import = [
     "~/.config/alacritty/themes/themes/github_light_high_contrast.toml"
